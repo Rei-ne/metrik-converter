@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reine's Metric Converter</title>
+    <link rel="icon" type="image/png" href="./images/budget.png" />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main"> <!--input div -->
+        <h3 class="heading">Metric / Imperial Unit Converter</h3>
+        <input type="number" class="number" id="number-el" placeholder="Type in value here" onChange="calculate(event.target.value)" ></input>
+      </div>
+      <div class="result">
+        <!-- Length container -->
+        <div class="conversion-result">
+          <!-- meter section -->
+          <div class="inner-container">
+            <!--heading -->
+            <p class="supporting-text1">Length (Meter/Feet)</p>
+            <div class="result-container">
+              <p id="supporting-text" class="supporting-text2">
+                <div id="textbox" class="inner-div">
+                Meters <span id="s1-1">0</span>
+              </div>
+              <div id="equals" class="inner-div"> <!--equals sign -->
+              =
+              </div>
+              <div id="textbox" class="inner-div">
+                Feet <span id="s1-2">0</span>
+                </div>
+                </p>
+              </div> <!--result container-->
+            </div> <!-- inner container  -->
+
+            <!-- feet section -->
+            <div class="inner-container">
+              <p class="supporting-text1">Length (Feet/Meter)</p>
+              <div class="result-container">
+                <p id="supporting-text" class="supporting-text2">
+                  <div id="textbox" class="inner-div">
+                    Feet <span id="s1-3">0</span>
+                  </div>
+                <div id="equals" class="inner-div"> <!--equals sign -->
+                  =
+                  </div>
+                  <div id="textbox" class="inner-div">
+                    Meters <span id="s1-4">0</span>
+                    </div>
+              </p>
+            </div> <!--result container-->
+          </div> <!-- inner container  -->
+
+      </div> <!-- conversion result container  -->
+
+
+        <!-- Volume container -->
+      <div class="conversion-result">
+          <!-- liters section -->
+            <div class="inner-container">
+              <p class="supporting-text1">Volume (Liters/Gallons)</p>
+              <div class="result-container">
+                <p id="supporting-text" class="supporting-text2">
+                  <div id="textbox" class="inner-div">
+                    Liters <span id="s2-1">0</span>
+                  </div>
+                <div id="equals" class="inner-div"> <!--equals sign -->
+                  =
+                  </div>
+                  <div id="textbox"  class="inner-div">
+                    Gallons <span id="s2-2">0</span>
+                    </div>
+              </p>
+        </div> <!--result container-->
+          </div> <!-- inner container  -->
+
+            <!-- gallons section -->
+          <div class="inner-container">
+            <p class="supporting-text1">Volume (Gallons/Liters)</p>
+            <div class="result-container">
+              <p id="supporting-text" class="supporting-text2">
+                <div id="textbox" class="inner-div">
+                  Gallons <span id="s2-3">0</span>
+                </div>
+                  <div id="equals" class="inner-div"> <!--equals sign -->
+                    =
+                    </div>
+                    <div id="textbox"  class="inner-div">
+                      Liters <span id="s2-4">0</span>
+                      </div>
+                </p>
+              </div><!-- result container  -->
+            </div> <!-- inner container  -->
+
+        </div> <!-- conversion result container-->
+
+
+          <!-- Mass container -->
+        <div class="conversion-result">
+            <!-- kilos section -->
+          <div class="inner-container">
+            <p class="supporting-text1">Mass (Kilograms/Pounds)</p>
+            <div class="result-container">
+              <p id="supporting-text" class="supporting-text2">
+                <div id="textbox" class="inner-div">
+                  Kilos <span id="s3-1">0</span>
+                </div>
+                  <div id="equals" class="inner-div"> <!--equals sign -->
+                    =
+                    </div>
+                    <div id="textbox" class="inner-div">
+                      Pounds <span id="s3-2">0</span>
+                      </div>
+                </p>
+            </div><!-- result container  -->
+          </div> <!-- inner container  -->
+
+              <!-- pounds section -->
+            <div class="inner-container">
+              <p class="supporting-text1">Mass (Pounds/Kilograms)</p>
+              <div class="result-container">
+                <p id="supporting-text" class="supporting-text2">
+                  <div id="textbox" class="inner-div">
+                    Pounds <span id="s3-3">0</span>
+                  </div>
+                    <div id="equals"  class="inner-div"> <!--equals sign -->
+                      =
+                      </div>
+                      <div id="textbox" class="inner-div">
+                        Kilos <span id="s3-4">0</span>
+                        </div>
+                      </p>
+              </div> <!-- result container  -->
+                </div> <!-- inner container  -->
+
+                </div> <!-- conversion result container  -->
+
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
