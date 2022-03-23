@@ -14,7 +14,7 @@ body {
   position: absolute;
   width: 850px;
   height: 615px;
-  left: 23%;
+  left: 19%;
   background: #ffffff;
   border-radius: 24px;
 }
@@ -152,7 +152,7 @@ span {
     position: absolute;
     padding: 0;
     margin: 15px;
-    left: 0%;
+    left: 10%;
     border-radius: 8px;
     width: 350px;
     height: 450px;
