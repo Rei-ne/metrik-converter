@@ -8,4 +8,6 @@ _Made with HTML, CSS and JavaScript_
 
 UI Design by [Fash!](https://twitter.com/heyFaash)
 
+Special thanks to [Hamicch](https://twitter.com/hamicch)
+
 View [Live](https://reine-metric-converter.netlify.app/)
