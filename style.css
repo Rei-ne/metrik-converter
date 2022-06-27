@@ -218,3 +218,123 @@ span {
     font-size: 11px;
   }
 }
+
+/* I added changes to the mobile design,
+if you like it? hmu.
+My twitter: https://www.twitter.com/0x_growth/ */
+
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  width: 350px;
+  height: 850px;
+  background: #ffffff;
+  border-radius: 24px;
+  margin: 2em;
+}
+
+.main {
+  height: 200px;
+  left: 0px;
+  top: 0px;
+  padding: 2em 1em;
+  background: linear-gradient(92.24deg, #cde4c5 5.59%, #faebc4 93.42%);
+  border-radius: 11px;
+}
+
+.main input {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  left: 50px;
+  top: 100px;
+  background: #ffffff;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  padding: 8px;
+  line-height: 20px;
+  text-align: center;
+  color: black;
+  border: none;
+}
+
+.main h3 {
+  position: absolute;
+  width: 430px;
+  top: 2px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 19px;
+  padding: 2em;
+  text-align: left;
+  color: #000000;
+}
+
+.result {
+  top: 15em;
+  padding: 1.5em;
+}
+
+.conversion-result {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1em;
+}
+
+.inner-container {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.result-container {
+  display: flex;
+  align-items: center;
+}
+.supporting-text1{
+  padding: 1em;
+}
+
+#equals {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#textbox {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 3px solid #f5f5f5;
+  background: #f5f5f5;
+  width: 100px;
+}
+
+.inner-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 40%;
+  font-weight: 300;
+}
+
+span {
+  font-weight: 600;
+}
+
+}
